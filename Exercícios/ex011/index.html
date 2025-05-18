@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídia em HTML</title>
+</head>
+<body>
+    <H1>Imagens dinâmica</H1>
+    <p>Teste abrir essse site em vários dispositivos diferentes ou simplimente aumente e diminua o tamanho do seu navegador.</p>
+    <picture>
+        <source media="(max-width:750px)" srcset="imagens/p.png" type="image/png">
+        <source media="(max-width:1000px)" srcset="imagens/m.png" type="image/png">
+        <img src="imagens/g.png" alt="Imagens flexível">
+    </picture>
+
+    <h1>Reproduzimdo áudio</h1>
+    <p>Vamos apreder a reproduzir áudio em HTML.</p>
+    <audio src="midia/Eclesiastes - Tudo é ilusão.mp3" controls autoplay></audio>
+    <audio controls autoplay>
+       <source src="midia/Eclesiastes - Tudo é ilusão.mp3" type="audio/mpeg">
+       <source src="midia/Eclesiastes - Tudo é ilusão.mp3" type="audio/ogg">
+       <source src="midia/Eclesiastes - Tudo é ilusão.mp3" type="audio/wav">
+
+    </audio>
+<p>Infelizmente seu Navegador não conseguir reproduzir áudio. <a href="#"></a>Clique aqui para baixar o arquivo MP3</p>
+
+</body>
+</html>

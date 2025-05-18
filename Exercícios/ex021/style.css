@@ -1,0 +1,19 @@
+@charset "UTF-8";
+H1 {
+    background-color: lightgray;
+    height: 300px;
+    width: 300px;
+
+    border: 10px solid darkslategray;
+
+    padding: 10px;
+
+    margin: 10px;
+}
+a {
+    border: 10px solid red;
+   
+    padding: 10px;
+
+    margin: 10px;
+}
