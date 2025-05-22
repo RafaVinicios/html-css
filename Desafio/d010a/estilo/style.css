@@ -6,6 +6,7 @@
     font-family: 'IDroid';
     src: url('../fontes/IDroid\ Bold.otf') format('opentype');
     font-weight: normal;
+
 }
 :root {
    --cor0: #c5ebd6;
