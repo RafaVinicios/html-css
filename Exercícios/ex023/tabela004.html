@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table {
+            border-collapse: collapse;
+            text-align: center;
+            vertical-align: middle;
+            position: relative;
+        }
+        caption {
+            font-size: 2em;
+            background-color: rgba(35, 33, 44, 0.534);
+            border: 1px solid black;
+            padding: 5px;
+            color: white;
+        }
+        .cor {
+            background-color: antiquewhite;
+            color: rgb(51, 6, 6);
+        }
+        thead > tr > th {
+            position: sticky;
+            top: 0px;
+            background-color: antiquewhite;
+            
+        }
+        tbody > tr:nth-child(2n) {
+            background-color: rgb(213, 204, 214);
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+        } 
+    </style>
+</head>
+<body>
+    <H1>Exercício de Tabela</H1>
+    <table>
+        <caption>Filmes Favoritos</caption>
+        <thead>
+            <tr class="cor">
+                <th scope="col">Grupos</th>
+                <th scope="col">Nomes</th>
+                <th colspan="3" scope="colgroup">Filmes</th>
+            </tr>  
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="3" scope="rowgroup" class="cor">Mulheres</th>
+                <td>Ana Maria Santos</td>
+                <td>Alen</td>
+                <td>Rambo</td>
+                <td>Vingadores</td>
+            </tr> 
+            <tr>
+                <td>Beatriz Souza</td>
+                <td>Hulk</td>
+                <td>Inception</td>
+                <td>Batman</td>
+            </tr>  
+             <tr>
+                <td>Cláudia Melo</td>
+                <td>Obilvion</td>
+                <td>Matrix</td>
+                <td>Big Hero</td>
+            </tr>
+             <tr>
+                <th rowspan="3" scope="rowgroup" class="cor">Homens</th>
+                <td>Bruno Mendonça</td>
+                <td>Intocáveis</td>
+                <td>Amnésia</td>
+                <td>Gladiador</td>
+            </tr>  
+             <tr>
+                <td>Daniel Lourenço</td>
+                <td>Wali-E</td>
+                <td>Oidboy</td>
+                <td>Dangal</td>
+            </tr>  
+             <tr>
+                <td>Fabiano Mota</td>
+                <td>Star Wars S</td>
+                <td>Taxi Driver</td>
+                <td>Toy Story</td>
+            </tr>  
+        </tbody>
+        <tfoot>
+            <tr class="cor">
+                <th colspan="4" scope="row">Total de Filmes</th>
+                <td><strong>18</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae distinctio rerum hic repellat magnam labore, necessitatibus culpa, sapiente eaque cupiditate, accusamus explicabo veritatis dolore fugiat veniam debitis. Laborum, tempore consequatur. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure exercitationem perspiciatis at atque ab expedita sunt nesciunt? Distinctio ab consequuntur blanditiis molestiae, saepe fugiat iure tempora architecto vitae sunt maxime? Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi maxime natus error, officiis dolor, tenetur esse voluptates corrupti rerum laudantium, id voluptatibus totam vitae exercitationem voluptatem iusto adipisci fugiat ut. Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem ipsum voluptatum rerum ullam, sit quos odio reprehenderit mollitia cum eius numquam quisquam impedit ipsam consectetur sunt enim doloremque ipsa? Omnis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore eos sint iure quam iste suscipit quae voluptas quas architecto vel doloremque possimus cumque nostrum ipsam aliquid repellat, eum aliquam sunt. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam porro iusto obcaecati nobis tempore quo temporibus deserunt. Exercitationem deserunt architecto ex repudiandae id accusamus ea delectus minus mollitia, omnis ducimus?</p>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae distinctio rerum hic repellat magnam labore, necessitatibus culpa, sapiente eaque cupiditate, accusamus explicabo veritatis dolore fugiat veniam debitis. Laborum, tempore consequatur. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure exercitationem perspiciatis at atque ab expedita sunt nesciunt? Distinctio ab consequuntur blanditiis molestiae, saepe fugiat iure tempora architecto vitae sunt maxime? Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi maxime natus error, officiis dolor, tenetur esse voluptates corrupti rerum laudantium, id voluptatibus totam vitae exercitationem voluptatem iusto adipisci fugiat ut. Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem ipsum voluptatum rerum ullam, sit quos odio reprehenderit mollitia cum eius numquam quisquam impedit ipsam consectetur sunt enim doloremque ipsa? Omnis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore eos sint iure quam iste suscipit quae voluptas quas architecto vel doloremque possimus cumque nostrum ipsam aliquid repellat, eum aliquam sunt. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam porro iusto obcaecati nobis tempore quo temporibus deserunt. Exercitationem deserunt architecto ex repudiandae id accusamus ea delectus minus mollitia, omnis ducimus?</p>
+
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae distinctio rerum hic repellat magnam labore, necessitatibus culpa, sapiente eaque cupiditate, accusamus explicabo veritatis dolore fugiat veniam debitis. Laborum, tempore consequatur. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure exercitationem perspiciatis at atque ab expedita sunt nesciunt? Distinctio ab consequuntur blanditiis molestiae, saepe fugiat iure tempora architecto vitae sunt maxime? Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi maxime natus error, officiis dolor, tenetur esse voluptates corrupti rerum laudantium, id voluptatibus totam vitae exercitationem voluptatem iusto adipisci fugiat ut. Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem ipsum voluptatum rerum ullam, sit quos odio reprehenderit mollitia cum eius numquam quisquam impedit ipsam consectetur sunt enim doloremque ipsa? Omnis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore eos sint iure quam iste suscipit quae voluptas quas architecto vel doloremque possimus cumque nostrum ipsam aliquid repellat, eum aliquam sunt. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam porro iusto obcaecati nobis tempore quo temporibus deserunt. Exercitationem deserunt architecto ex repudiandae id accusamus ea delectus minus mollitia, omnis ducimus?</p>
+</body>
+</html>
