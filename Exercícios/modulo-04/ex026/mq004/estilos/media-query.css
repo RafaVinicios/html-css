@@ -9,7 +9,7 @@ Tablet: 768 até 992px
 Desktop: 992px até 1200px
 Grandes Telas: acimas de 1200px
 */
-@media print { /*IMPRESSÃP*/
+@media print { /*IMPRESSÃ0*/
     * {
          font-family: 'Courier New', Courier, monospace;
     }
